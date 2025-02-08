@@ -15,6 +15,12 @@ def apagar(self):
     self.encendido = False
     print(f"El carro {self.marca} {self.modelo} ha apagado")
 
+def acelerar(self):
+    if self.encendido:
+        print(f"El carro {self.marca} {self.modelo} se acelera")
+    else:
+        print("El carro debe estar encendido para acelerar")
+
  
 carros = carro()
 carros.agregar_carro("Toyota", "Camry", "Negro")
